@@ -43,3 +43,22 @@ Tipo	Descrizione
 None	Non fare nulla
 AddToAttribute	Questa variabile diventerà parte dell'attributo, ovvero GetAttribute = Base + Buff + Equipaggiamento + Variabile
 Auto-Adjust	Quando l'Attributo cambia, anche la Variabile cambierà di conseguenza. Ad esempio, se l'Attributo aumenta del 10%, anche la Variabile aumenterà del 10%.
+
+Eventi
+immagine
+
+Evento	Descrizione
+Event_OnBeginPlay	Il componente inizia l'inizializzazione
+Event_OnInitialized	Il componente completa l'inizializzazione
+Event_OnAttributeChanged	Quando cambia un attributo
+Event_OnVariableChanged	Quando una variabile cambia
+Event_OnFloatValueChanged	Quando cambia un FloatValue
+Event_OnNameValueChanged	Quando cambia un NameValue
+Event_OnTagValueChanged	Quando cambia un TagValue
+Event_OnVectorValueChanged	Quando cambia un VectorValue
+Event_OnRotatorValueChanged	Quando cambia un RotatorValue
+Event_OnTransformValueChanged	Quando cambia un TransformValue
+Event_OnSaveGame	Quando ci si prepara a salvare il gioco
+Event_OnSavedGame	Quando il gioco è salvato
+Event_OnLoadGame	Quando ci si prepara a caricare il gioco
+Event_OnLoadedGame	Quando il gioco è caricato
