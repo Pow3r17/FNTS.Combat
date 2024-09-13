@@ -44,8 +44,13 @@ None	Non fare nulla
 AddToAttribute	Questa variabile diventerà parte dell'attributo, ovvero GetAttribute = Base + Buff + Equipaggiamento + Variabile
 Auto-Adjust	Quando l'Attributo cambia, anche la Variabile cambierà di conseguenza. Ad esempio, se l'Attributo aumenta del 10%, anche la Variabile aumenterà del 10%.
 
+
+CURRENT VALUE AND MAX VALUE !
+![cc](https://github.com/user-attachments/assets/4daf9593-e66b-43be-8a08-7a6c6850aa19)
+
+
 Eventi
-immagine
+
 
 Evento	Descrizione
 Event_OnBeginPlay	Il componente inizia l'inizializzazione
