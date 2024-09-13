@@ -34,3 +34,12 @@ carica gli attributi da DataTable
 ![Image](https://github.com/user-attachments/assets/9a95a681-f54c-471e-a473-c4a8fe2a3f5c)
 
 
+Regole
+Le regole variabili sono le regole che si applicano quando cambiano gli attributi.
+
+![333](https://github.com/user-attachments/assets/5f1e53a9-75bf-4382-8511-547182aa82a5)
+
+Tipo	Descrizione
+None	Non fare nulla
+AddToAttribute	Questa variabile diventerà parte dell'attributo, ovvero GetAttribute = Base + Buff + Equipaggiamento + Variabile
+Auto-Adjust	Quando l'Attributo cambia, anche la Variabile cambierà di conseguenza. Ad esempio, se l'Attributo aumenta del 10%, anche la Variabile aumenterà del 10%.
